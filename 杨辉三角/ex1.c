@@ -18,10 +18,12 @@ int main()
         for (int j = 0; j <= i; j++)
         {
             printf("%d", a[i][j]);
-            if (j != i) putchar(',');
+            if (j != i)
+                putchar(',');
         }
         putchar(']');
-        if (i != n - 1) putchar(',');
+        if (i != n - 1)
+            putchar(',');
     }
     putchar(']');
     return 0;
